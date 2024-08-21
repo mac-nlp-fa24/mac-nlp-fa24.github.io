@@ -1,0 +1,675 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Activity 06: Data Structure Review 2 · COMP 221 - Overview &amp; Schedule</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Course Website for Macalester MSCS's COMP 221 offered Spring 2024."><meta name="generator" content="Jekyll (using style of GitBook)"><link rel="stylesheet" href="/assets/gitbook/style.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+<link rel="stylesheet" href="/assets/css/pseudocode.css">
+
+<link rel="stylesheet" href="/assets/gitbook/rouge/colorful.css">
+
+<link rel="stylesheet" href="/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/assets/gitbook/custom-local.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/" type="image/x-icon">
+
+
+
+
+            <link rel="prev" href="/pages/Activity05/" />
+        
+
+        
+            <link rel="next" href="/pages/Activity07/" />
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+            }
+            return true;
+        }
+    </script>
+
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="">
+            
+                <a href="/" onclick="pageScrollToTop(this)">
+                    COMP 221 - Overview &amp; Schedule
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            
+                <!-- <p>pages</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/2-5incident/">
+                        
+                            <a href="/pages/2-5incident/" onclick="pageScrollToTop(this)">
+                                Skiena Problem 2-5
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity01/">
+                        
+                            <a href="/pages/Activity01/" onclick="pageScrollToTop(this)">
+                                Activity 01: Sorting 1
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity02/">
+                        
+                            <a href="/pages/Activity02/" onclick="pageScrollToTop(this)">
+                                Activity 02: Sorting 2
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity03/">
+                        
+                            <a href="/pages/Activity03/" onclick="pageScrollToTop(this)">
+                                Activity 03: Sorting 3
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity04/">
+                        
+                            <a href="/pages/Activity04/" onclick="pageScrollToTop(this)">
+                                Activity 04: Linear Data Structures Review
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity05/">
+                        
+                            <a href="/pages/Activity05/" onclick="pageScrollToTop(this)">
+                                Activity 05: Brute Force Algorithms
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter active" data-level="1.2" data-path="/pages/Activity06/">
+                        
+                            <a href="/pages/Activity06/" onclick="pageScrollToTop(this)">
+                                Activity 06: Data Structure Review 2
+                            </a>
+                            
+                                
+                                    <ul><li><a href="#learning-goals" onclick="mobilePageScrollToAnchor(this)" >Learning Goals</a></li><li><a href="#instructions" onclick="mobilePageScrollToAnchor(this)" >Instructions</a></li></ul>
+
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity07/">
+                        
+                            <a href="/pages/Activity07/" onclick="pageScrollToTop(this)">
+                                Activity 07: Heap- &amp; TreeSort
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity08/">
+                        
+                            <a href="/pages/Activity08/" onclick="pageScrollToTop(this)">
+                                Activity 08: Sorting as Pre-Processing
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity09/">
+                        
+                            <a href="/pages/Activity09/" onclick="pageScrollToTop(this)">
+                                Activity 09: Quicksort and Partitioning
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity10/">
+                        
+                            <a href="/pages/Activity10/" onclick="pageScrollToTop(this)">
+                                Activity 10: Binary Search Variants
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity11/">
+                        
+                            <a href="/pages/Activity11/" onclick="pageScrollToTop(this)">
+                                Activity 11: The Master Theorem
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity12/">
+                        
+                            <a href="/pages/Activity12/" onclick="pageScrollToTop(this)">
+                                Activity 12: More Divide &amp; Conquer Design
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity13/">
+                        
+                            <a href="/pages/Activity13/" onclick="pageScrollToTop(this)">
+                                Activity 13: Graph Traversal
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity14/">
+                        
+                            <a href="/pages/Activity14/" onclick="pageScrollToTop(this)">
+                                Activity 14: Minimum Spanning Trees and Prim&#39;s Algorithm
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity15/">
+                        
+                            <a href="/pages/Activity15/" onclick="pageScrollToTop(this)">
+                                Activity 15: Shortest Paths and Dijkstra&#39;s Algorithm
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity16/">
+                        
+                            <a href="/pages/Activity16/" onclick="pageScrollToTop(this)">
+                                Activity 16: Max-Flow and Ford-Fulkerson
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity17/">
+                        
+                            <a href="/pages/Activity17/" onclick="pageScrollToTop(this)">
+                                Activity 17: APSP and Floyd-Warshall
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity18/">
+                        
+                            <a href="/pages/Activity18/" onclick="pageScrollToTop(this)">
+                                Activity 18: Dynamic Programming Practice
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity19/">
+                        
+                            <a href="/pages/Activity19/" onclick="pageScrollToTop(this)">
+                                Activity 19: Dynamic Programming Practice 2
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity20/">
+                        
+                            <a href="/pages/Activity20/" onclick="pageScrollToTop(this)">
+                                Activity 20: Complexity Theory and Hardness Reductions
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>posts</p> -->
+                
+                    
+
+                    
+
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >Activity 06: Data Structure Review 2</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/pages/Activity06">Activity 06: Data Structure Review 2</h1>
+                    
+
+                    <h2 id="learning-goals">Learning Goals</h2>
+
+<p>You will work towards being able to…</p>
+
+<ol>
+  <li>
+    <p>Know the time complexities of common implementations of hashtables, priority queues, trees, and graphs</p>
+  </li>
+  <li>
+    <p>Reason about best- and worst-case inputs to these data structures</p>
+  </li>
+  <li>
+    <p>Use the vocabulary of non-linear data structures: hashing/hashcode, loading factor, parent, child, sister/sibling, ancestor/descendent, root, directed/undirected, dense/sparse, connected/connected component, cycle/cyclic/acyclic.</p>
+  </li>
+</ol>
+
+<p>Over and above this, <strong>the general goal of this assignment is to start getting you to think about these data structures as abstract mathematical objects rather than constructs in programming</strong>.</p>
+
+<h2 id="instructions">Instructions</h2>
+<p>Work with your groups on the problems below. Each section also includes the question marked <strong>Bonus</strong>, which you should only attempt <strong>AFTER</strong> solving all of the non-bonus questions in each section.</p>
+
+<p>I encourage you to work through these problems with <em>examples</em>. Some of these questions are fairly abstract, and so it may be tempting to work through them entirely abstractly. However, you might find that your intuitions about these abstract structures aren’t great (or worse, <em>wrong</em>!). I recommend that you develop explicit, concrete examples for each of these problems. This may involve working through the problem after picking specific values for unknown constrants (i.e., solve the hashing question with $m=5$ and then with $m=6$! How does changing $m$ change how collisions work out? Can I generalize to all possible $m$?), or explicitly writing out the adjacency list and matrix representations for a few graphs before you get an intuition for which ones are best suited for adjacency matrices vs. lists.</p>
+
+<h4 id="hashing-and-maps">Hashing and Maps</h4>
+<p>Suppose you have a hashtable of size $m$ that you use to implement a map with String keys and Integer values. You map keys to indices in the hashtable using the following function:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function hash(String s, Integer m):
+    hc &lt;- 0 
+    for i &lt;- 1 to length(s):
+        hc &lt;- hc + letter_num(s[i])
+    return hc % m
+</code></pre></div></div>
+<p>Where letter_num returns the position of the letter in the alphabet (i.e., letter_num(“a”) = 1, letter_num(“b”) = 2, …, letter_num(“z”) = 26). 
+For what values of $m$ will the following insertions collide?</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>insert("bald")
+insert("area")
+~~insert("sea")~~
+</code></pre></div></div>
+
+<p>What about the following inserts?</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>insert("cheddar")
+insert("comic")
+insert("fern")
+insert("nerf")
+</code></pre></div></div>
+
+<p>Can you conclude anything <em>in-general</em> about your choice of $m$ if you were to implement this hashmap? what $m$ would minimize collisions? What collisions can you not avoid? (If it helps, feel free to make some assumptions: What if the length of string keys have length $\leq k$, for some $k$? Can you construct a good $m$ in terms of $k$).</p>
+
+<p>Feel free to write small pieces of code if it helps you work through the problem!</p>
+
+<p><strong>Bonus</strong>: For those of you with some probability background, let’s consider the odds of a collision occurring: Suppose you have a hash function $f$ that is <em>distributed uniformly</em>. This means for random $k$ in our space of keys, the corresponding values $f(k)$ are equally likely to be hashed to any of the $m$ slots in our hashtable. Formally, we can say that this means for a sequence of insertions with keys $k_1, \dots, k_n$, $P(f(k_i) = j) = \frac{1}{m}$ for any $1 \leq i \leq n$ and $1 \leq j \leq m$. What is the likelihood of a collision after $n$ insertions (that is, that $\exists l,m$ such that $f(k_l) = f(k_m)$). Like many probability problems of this type, it might be easier to reason about the likelihood that there <em>aren’t</em> any collisions.</p>
+
+<h4 id="pqueues-and-heaps">PQueues and Heaps</h4>
+<ol>
+  <li>
+    <p>Suppose you have a priority queue implemented with a min-heap. Suppose 9 items were successfully inserted into it. What is the structure of the tree? Draw the nodes and parent-child structure.</p>
+
+    <blockquote class="block-tip">
+      <h5 id="hint">HINT</h5>
+      <p>How does a heap maintain balance? What property does the tree underlying the heap always have?</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Recall that a min-heap has an ordering property such that if node $a$ is a child of node $b$, then $a &gt; b$. <strong>Show (formally) that this means that a path from root to leaf $c_1, c_2, \dots, c_h$ is sorted.</strong> For clarity, since $c_1, \dots c_h$ is a path from root to leaf, this means that for each $1 &lt; i \leq h$, $c_i$ is the child of $c_{i-1}$.</p>
+  </li>
+</ol>
+
+<p><strong>Bonus</strong>: When we insert or remove an element from the heap, our algorithm from data structures was to insert it to an incorrect position (i.e., one that violates our ordering property), and then swap it with elements above until it was greater than it’s parent. This is, essentially, a single pass of BubbleSort on the path from the root to the new leaf. Show that this always works! Make sure to use the proper assumptions: What do you know about the structure of the heap before the insert? Write out the pseudocode for the insert and see if you can prove it’s correctness (i.e., that the element is added and that the heap ordering and balance properties are preserved.</p>
+
+<h4 id="binary-search-trees">(Binary Search) Trees</h4>
+<ol>
+  <li>
+    <p>Suppose you have an empty (non-self-balancing) binary search tree and insert $k$ elements into it. What is the worst-case time complexity of a look-up for a particular value (in big-$\Theta$). What does a worst case sequence of insertions look like?</p>
+  </li>
+  <li>
+    <p>(Skiena 3-15) Suppose you want to convert an un-balanced binary search tree to a balanced one. Write an $O(n)$ algorithm that will convert a binary search tree with $n$ nodes to one that is perfectly balanced. Here, take balanced to mean that the depth of any two <del>leaves</del> <em>null pointers</em> (i.e., a missing child) differs by at most 1.</p>
+
+    <blockquote class="block-tip">
+      <h5 id="hint-1">HINT</h5>
+      <p>Look back at the answer to the hint question in the PQueue/Heap section. Could you borrow a balancing idea from there?</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p><strong>BONUS</strong>: (Skiena 3-21) Given two BSTs $A$ and $B$ such that $\forall a \in A, b \in B$, $a &lt; b$, write pseudocode to construct a new BST $C$ that contains all of the elements in $A$ and $B$ (that is, $\forall a \in A$, $a \in C$ and $\forall b \in B$, $b \in C$). Do this in $O(h)$ (worst-case) time, where $h$ is the maximum height between $A$ and $B$.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; ###### HINT
+&gt; Focus on ensuring that $C$ satisfies the ordering property for BSTs. Both trees are given to you as ordered BSTs, so try to change the structure of $A$ and $B$ as little as possible when merging them.
+{: .block-tip}
+</code></pre></div></div>
+
+<h4 id="graphs">Graphs</h4>
+<ol>
+  <li>
+    <p>Construct a graph which will take up less memory as an adjacency list vs. as an adjacency matrix.</p>
+  </li>
+  <li>
+    <p>Consider a <em>complete</em> graph $G = (V, E)$. Being complete means that for any $v_1, v_2 \in V$, $(v_1, v_2) \in E$ (every pair of vertices has an edge connecting them). Suppose the graph in undirected. What is $|E|$? That is, how many edges are in $G$?</p>
+  </li>
+  <li>
+    <p>What is the smallest $|E|$ one can have such that $G = (V, E)$ is <em>connected</em>?</p>
+  </li>
+</ol>
+
+<p><strong>BONUS</strong>: We can think of trees as a special case of graphs. Two equivalent definitions are (1) an undirected graph that is <em>connected</em> and <em>acyclic</em> or (2) a graph where any two vertices are connected by exactly 1 path. Convince yourself (and attempt to show, formally) that (1) these definitions match the way we talk about trees and (2) that these two definitions are equivalent.</p>
+
+<h4 id="submission">Submission</h4>
+
+<p>Upload to Moodle your work on at least one problem per data structure. Convince yourself that you could solve all the problems here independently (with the exception of the bonus problems) to make sure that you’re sufficiently caught up with data structures!</p>
+</section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/pages/Activity05/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Activity 05: Brute Force Algorithms">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                        <a href="/pages/Activity07/" class="navigation navigation-next navigation-unique" aria-label="Next page: Activity 07: Heap- & TreeSort">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "next": {
+            "title": "Activity 07: Heap- & TreeSort",
+            "level": "1.2",
+            "depth": 1,
+            "path": "_pages/Activity07.markdown",
+            "ref": "_pages/Activity07.markdown",
+            "articles": []
+        },
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},            "sharing": {
+                "facebook": false,
+
+                "google": false,
+
+                "github": true,
+              
+                "github_link": "https://github.com/mac-comp221-sp24",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
+                "instapaper": false,
+
+                "twitter": false,
+              
+
+                "vk": false,
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
+            },
+"theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            },
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "COMP 221 - Overview & Schedule",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_pages/Activity06.markdown",
+        "mtime": "2024-04-19 12:53:12 -0500",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "",
+        "time": "2024-04-19 12:53:12 -0500"
+    },
+    "basePath": "",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/assets/gitbook/gitbook.js"></script>
+<script src="/assets/gitbook/theme.js"></script>
+
+<script src="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
+
+</body>
+</html>

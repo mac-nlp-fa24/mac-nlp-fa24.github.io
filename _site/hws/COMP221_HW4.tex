@@ -1,0 +1,80 @@
+\documentclass{exam}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{geometry}[border=1in]
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+
+
+%\printanswers
+
+\title{Homework 4}
+\author{COMP221 Spring 2024 - Suhas Arehalli}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Complete the problems below. This assignment is out of \textbf{50} points, and the point values of each question are listed after the question's instructions. Note that point values are roughly inversely correlated with expected difficulty with secondary consideration for the amount of work and centrality of the material associated with them.
+
+\begin{itemize}
+    \item Write up your solutions to all parts of this homework using some typesetting software (LaTeX/Overleaf is recommended, but any typeset PDF is acceptable).
+    \item You'll submit this assignment through Github Classroom (link on Moodle), with your written solutions in a pdf named ``[LASTNAME1]\_[LASTNAME2]\_Homework1.pdf''.
+    \item \textbf{The due date for this assignment will be posted on the course website.}
+    \item \textbf{You may submit assignments in pairs.} Put both peoples' names at the top of your submission. \begin{itemize}
+        \item \textbf{Both people are expected to have contributed to all parts of the assignment} -- work together, and make sure you and your partner are both convinced of your solutions.
+        \item If you discussed problems with other students, list their names at the top of your assignment (there will be no penalty for this --- it's encouraged!).
+        \item However, don't look at other group's written solutions/code, or share your written solutions/code with other groups. \textbf{In addition, do not search around the internet for solutions to these problems.} Seek help from your partner and course staff, the textbook, and course materials. Consult the syllabus for more details on academic integrity policies.
+    \end{itemize}  
+\end{itemize}   
+
+Note that we may not have covered all of the topics involved in this assignment at the point of release. This is to give you time to complete the parts you can as early as you can. I recommend you make note of parts we haven't covered yet so you can come back to them.
+
+\section{Algorithmic Design \& Analysis \textit{(50pts)}} 
+\begin{questions}
+
+    \question \textbf{Degree Constrained Spanning Trees} \textit{18pts}
+    
+    The low-degree spanning tree problem (\textproc{Low-Degree-Span}) is a decision problem that asks whether, for a graph $G = (V, E)$ and $k \in \mathbb{Z}_{\geq 0}$, whether there exists a spanning tree where each vertex in the tree has degree $\leq k$. 
+    \begin{parts}
+        \part (Skiena 11-12a) Provide (with pseudocode) a reduction showing that this problem is NP-hard. (\textit{10pts})
+
+        \textbf{**Hint**:} Consider the Hamiltonian Path Problem from the textbook.
+        
+        \part (Skiena 11-12b) Consider the \textit{high-degree spanning tree problem} (\textproc{High-Degree-Span}) which asks, for graph $G = (V, E)$ and $k \in \mathbb{Z}_{\geq 0}$, if $G$ contains a spanning tree which contains a vertex with degree $\geq k$ (for clarification, count only edges within the spanning tree when computing degree here!). Provide pseudocode for a polynomial-time algorithm to solve this problem. (\textit{8pts})
+        
+    \end{parts}
+
+    \question \textbf{Approximate Vertex Cover} \textit{32pts}
+    
+    Recall that the (minimum) vertex cover problem asks you to construct, given a graph $G= (V, E)$, $C \subseteq V$ such that every edges $e \in E$ is incident to a vertex in $C$. This transforms into a decision problem where, given that graph and an integer $k$, you must determine whether a vertex cover of size $\leq k$ exists on this graph. 
+    \begin{parts}
+        \part Provide an algorithm to \textit{verify} a solution to vertex cover. That is, given some $C \subseteq V$ of size $k$ (called a \textit{certificate} for the vertex cover problem), find an \textit{efficient} algorithm to determine whether $C$ is a vertex cover of $G$. \textit{8pts}
+
+        \part Suppose $G$ is a tree. Provide a linear time algorithm ($\Theta(\lvert V \rvert + \lvert E \rvert)$) for constructing a minimum vertex cover. \textit{6pts}
+
+        \part Prove that the algorithm in the previous part is correct. \textit{6pts}
+
+        \part For every edge $e \in E$, by definition a vertex cover must contain at least one of the vertices incident to that edge. Write pseudocode for an algorithm that incrementally builds a vertex cover by repeatedly selecting edges that are not yet covered and then adding \textit{both} vertices along those edges to the vertex cover. (\textit{4pt})
+
+        \part Provide a big-$O$ time complexity for the algorithm in the previous part in terms of $\lvert V \rvert$. (\textit{4pt})
+
+        \part Prove that this is a \textit{2-Approximation} of the vertex cover problem. That is, suppose your algorithm constructs a set cover $C$, and let $C^*$ is the minimum set cover; Prove that $\lvert C \rvert \leq 2\lvert C^* \rvert$. (\textit{3pt})
+
+        \part Consider an alternative strategy where you repeatedly select the \textit{highest-degree vertex} remaining in the graph. That is, repeatedly add the highest-degree vertex $v$ to a vertex cover $C$ and then remove all edges incident to $v$ from $E$ until no edges remain in $E$. Prove, by counterexample, that this solution is \textit{not} a \textit{2-Approximation} (\textit{1pt})
+
+        \textbf{**Hint**:} Consider a bipartite graph with one of the two parts containing vertices with identical degree.
+    \end{parts}
+\end{questions}
+
+
+\end{document}

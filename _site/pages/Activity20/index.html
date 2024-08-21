@@ -1,0 +1,616 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Activity 20: Complexity Theory and Hardness Reductions · COMP 221 - Overview &amp; Schedule</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Course Website for Macalester MSCS's COMP 221 offered Spring 2024."><meta name="generator" content="Jekyll (using style of GitBook)"><link rel="stylesheet" href="/assets/gitbook/style.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+<link rel="stylesheet" href="/assets/css/pseudocode.css">
+
+<link rel="stylesheet" href="/assets/gitbook/rouge/colorful.css">
+
+<link rel="stylesheet" href="/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/assets/gitbook/custom-local.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/" type="image/x-icon">
+
+
+
+
+            <link rel="prev" href="/pages/Activity19/" />
+        
+
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+            }
+            return true;
+        }
+    </script>
+
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="">
+            
+                <a href="/" onclick="pageScrollToTop(this)">
+                    COMP 221 - Overview &amp; Schedule
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            
+                <!-- <p>pages</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/2-5incident/">
+                        
+                            <a href="/pages/2-5incident/" onclick="pageScrollToTop(this)">
+                                Skiena Problem 2-5
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity01/">
+                        
+                            <a href="/pages/Activity01/" onclick="pageScrollToTop(this)">
+                                Activity 01: Sorting 1
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity02/">
+                        
+                            <a href="/pages/Activity02/" onclick="pageScrollToTop(this)">
+                                Activity 02: Sorting 2
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity03/">
+                        
+                            <a href="/pages/Activity03/" onclick="pageScrollToTop(this)">
+                                Activity 03: Sorting 3
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity04/">
+                        
+                            <a href="/pages/Activity04/" onclick="pageScrollToTop(this)">
+                                Activity 04: Linear Data Structures Review
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity05/">
+                        
+                            <a href="/pages/Activity05/" onclick="pageScrollToTop(this)">
+                                Activity 05: Brute Force Algorithms
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity06/">
+                        
+                            <a href="/pages/Activity06/" onclick="pageScrollToTop(this)">
+                                Activity 06: Data Structure Review 2
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity07/">
+                        
+                            <a href="/pages/Activity07/" onclick="pageScrollToTop(this)">
+                                Activity 07: Heap- &amp; TreeSort
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity08/">
+                        
+                            <a href="/pages/Activity08/" onclick="pageScrollToTop(this)">
+                                Activity 08: Sorting as Pre-Processing
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity09/">
+                        
+                            <a href="/pages/Activity09/" onclick="pageScrollToTop(this)">
+                                Activity 09: Quicksort and Partitioning
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity10/">
+                        
+                            <a href="/pages/Activity10/" onclick="pageScrollToTop(this)">
+                                Activity 10: Binary Search Variants
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity11/">
+                        
+                            <a href="/pages/Activity11/" onclick="pageScrollToTop(this)">
+                                Activity 11: The Master Theorem
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity12/">
+                        
+                            <a href="/pages/Activity12/" onclick="pageScrollToTop(this)">
+                                Activity 12: More Divide &amp; Conquer Design
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity13/">
+                        
+                            <a href="/pages/Activity13/" onclick="pageScrollToTop(this)">
+                                Activity 13: Graph Traversal
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity14/">
+                        
+                            <a href="/pages/Activity14/" onclick="pageScrollToTop(this)">
+                                Activity 14: Minimum Spanning Trees and Prim&#39;s Algorithm
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity15/">
+                        
+                            <a href="/pages/Activity15/" onclick="pageScrollToTop(this)">
+                                Activity 15: Shortest Paths and Dijkstra&#39;s Algorithm
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity16/">
+                        
+                            <a href="/pages/Activity16/" onclick="pageScrollToTop(this)">
+                                Activity 16: Max-Flow and Ford-Fulkerson
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity17/">
+                        
+                            <a href="/pages/Activity17/" onclick="pageScrollToTop(this)">
+                                Activity 17: APSP and Floyd-Warshall
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity18/">
+                        
+                            <a href="/pages/Activity18/" onclick="pageScrollToTop(this)">
+                                Activity 18: Dynamic Programming Practice
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/Activity19/">
+                        
+                            <a href="/pages/Activity19/" onclick="pageScrollToTop(this)">
+                                Activity 19: Dynamic Programming Practice 2
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter active" data-level="1.2" data-path="/pages/Activity20/">
+                        
+                            <a href="/pages/Activity20/" onclick="pageScrollToTop(this)">
+                                Activity 20: Complexity Theory and Hardness Reductions
+                            </a>
+                            
+                                
+                                    <ul><li><a href="#learning-goals" onclick="mobilePageScrollToAnchor(this)" >Learning Goals</a></li><li><a href="#activity" onclick="mobilePageScrollToAnchor(this)" >Activity</a><ul><li><a href="#day-1" onclick="mobilePageScrollToAnchor(this)" >Day 1</a></li><li><a href="#day-2" onclick="mobilePageScrollToAnchor(this)" >Day 2</a></li><li><a href="#day-3" onclick="mobilePageScrollToAnchor(this)" >Day 3</a></li></ul></li></ul>
+
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>posts</p> -->
+                
+                    
+
+                    
+
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >Activity 20: Complexity Theory and Hardness Reductions</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/pages/Activity20">Activity 20: Complexity Theory and Hardness Reductions</h1>
+                    
+
+                    <h2 id="learning-goals">Learning Goals</h2>
+
+<p>You will work towards being able to…</p>
+
+<ol>
+  <li>Design reductions to prove the hardness of problems</li>
+</ol>
+
+<h2 id="activity">Activity</h2>
+<p>Work with your groups to work through the following problems. For these in particular, discuss at your tables to make sure everyone comes to agreement!</p>
+
+<h3 id="day-1">Day 1</h3>
+
+<ol>
+  <li>
+    <p>Suppose a problem $X$ is tractable, and you have an algorithm that runs in polynomial time that turns a solution from problem $X$ into a solution for problem $Y$. Can you tell if Problem $Y$ is tractable? If so, is it?</p>
+  </li>
+  <li>
+    <p>Suppose a problem $X$ is intractable, and you have an algorithm that runs in polynomial time that turns a solution from problem $X$ into a solution for problem $Y$. Can you tell if Problem $Y$ is tractable? If so, is it?</p>
+  </li>
+  <li>
+    <p>Suppose a problem $Y$ is intractable, and you have an algorithm that runs in polynomial time that turns a solution from problem $X$ into a solution for problem $Y$. Can you tell if Problem $X$ is tractable? If so, is it?</p>
+  </li>
+  <li>
+    <p>Suppose a problem $Y$ is tractable, and you have an algorithm that runs in polynomial time that turns a solution from problem $X$ into a solution for problem $Y$. Can you tell if Problem $X$ is tractable? If so, is it?</p>
+  </li>
+  <li>
+    <p>Raise your hand and check your answers to each of these questions!</p>
+  </li>
+</ol>
+
+<h3 id="day-2">Day 2</h3>
+
+<ol>
+  <li>
+    <p>(Skiena 11-4) <em>Stingy SAT</em> is a problem that that asks, given a set of clauses (that is, disjunctions of literals) and $k \in \mathbb{Z}_{\geq 0}$, determine whether there is an assignment of boolean values to variables such that each clause evaluates to true <em>and</em> at most $k$ of the variables are assigned to true. Prove that this is NP-hard!</p>
+
+    <blockquote class="block-tip">
+      <h6 id="hint">Hint</h6>
+      <p>Reduce this from an instance of the SAT problem!<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+    </blockquote>
+  </li>
+  <li>
+    <p>(Skiena 11-10) The <em>(Minimum) Set Cover</em> problem provides you a set $X$, a set of subsets of $X$ called $F$, and asks you to find the smallest subset of $F’ \subseteq F$ such that $X \subseteq \bigcup_{S \in F’} S$. That is, select the fewest number of subsets from $F$ such that the union of those subsets contains every element in $X$. A Set-Cover <em>decision</em> problem asks, for $F$, $X$, and $k \in \mathbb{Z}_{\geq 0}$ if there exists $F’ \subseteq F$ that is a set cover w.r.t. $X$ and $\lvert F’ \rvert \leq k$. Working with the decision problems, Assuming Vertex Cover is NP-Hard, prove Set Cover is NP-Hard via a reduction.</p>
+  </li>
+  <li>
+    <p>Provide a <em>verification</em> algorithm for Set Cover. That is, given a potential solution to the set cover problem, provide an algorithm to verify it. Show that this verification can be done in polynomial time (i.e., Set Cover is NP-Complete).</p>
+  </li>
+</ol>
+
+<h3 id="day-3">Day 3</h3>
+
+<ol>
+  <li>Recall that a <em>clique</em> in a graph $G=(V, E)$ is a set of vertices $C \subseteq V$ such that every $v, w \in C$ are connected (i.e., $(v,w) \in E$). The clique decision problem asks, given a graph $G = (V, E)$ and $k \in \mathbb{Z}_{\geq 0}$, if a clique of size $\geq k$ exists in $G$. Suppose you consider a simplified version of the problem where you’re guaranteed that $G$ only contains vertices with degree $\leq k$. Prove that this problem is tractable (i.e., find a polynomial-time solution).</li>
+</ol>
+
+<h4 id="submission">Submission</h4>
+<p>Submit an artifact of your work on Moodle.</p>
+
+<hr />
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The reductions we’ve looked at thus far are called <em>Turing</em> (or sometimes <em>Cook</em>) reductions. A more restricted class or reductions that require that you can translate the <em>inputs</em> of Problem Y into inputs of Problem X such that the solution to that problem instance for problem X is also the solution to the original instance of Problem Y is called a <em>Karp</em> or <em>Many-One</em> reduction. That is, you can find a function that maps inputs for Problem Y into inputs for Problem X that have the same solution. Given how restricted Karp reductions are, they are more powerful than Turing reductions, and are the standard kind of reduction in complexity theory. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/pages/Activity19/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Activity 19: Dynamic Programming Practice 2">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},            "sharing": {
+                "facebook": false,
+
+                "google": false,
+
+                "github": true,
+              
+                "github_link": "https://github.com/mac-comp221-sp24",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
+                "instapaper": false,
+
+                "twitter": false,
+              
+
+                "vk": false,
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
+            },
+"theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            },
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "COMP 221 - Overview & Schedule",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_pages/Activity20.markdown",
+        "mtime": "2024-04-19 12:53:12 -0500",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "",
+        "time": "2024-04-19 12:53:12 -0500"
+    },
+    "basePath": "",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/assets/gitbook/gitbook.js"></script>
+<script src="/assets/gitbook/theme.js"></script>
+
+<script src="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
+
+</body>
+</html>
