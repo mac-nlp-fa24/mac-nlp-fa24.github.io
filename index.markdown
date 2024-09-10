@@ -13,7 +13,8 @@ Welcome to the COMP394 (Natural Language Processing) Course Page. For course pol
 
 ### Resources
 
-#### Staff \& Office Hours
+#### Course Staff & Office Hours
+##### Instructor:
 Suhas Arehalli
 Tu/Weds/Fri 2--3pm, OLRI 229
 OLRI 229
