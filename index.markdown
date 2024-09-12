@@ -37,9 +37,13 @@ The schedule below will be updated to keep track of all released course material
 | 1 | 9/3 | Introduction  | [Syllabus](https://docs.google.com/document/d/1KVAYYU9B2DLcGQ_XvX9-6RNqVW7b_FI0NXx0UJjzXj4/edit?usp=sharing) | [Survey](https://forms.gle/y7YdmFoi2p2ffc866) [Set-up](https://docs.google.com/document/d/11DtKwHP83sd9BSRk37b5dP8lJ5WRo6Txur-6jF-5plY/edit?usp=sharing) |
 | 1 | 9/5 | Language is Hard: Sentence Structure (Syntax)  | Skim [Carnie (2011) Unit 1](https://macalester.on.worldcat.org/oclc/730500579)   | NACLO Problem [1](https://naclo.org/resources/problems/2022/N2022-B.pdf), [2](https://naclo.org/resources/problems/2021/N2021-A.pdf)   |
 | 2 | 9/10 | Language is Hard: Word Structure (Morphology)  |    | NACLO Problem [1](https://naclo.org/resources/problems/2021/N2021-G.pdf), [2](https://naclo.org/resources/problems/2023/N2023-M.pdf), [Spaces]({{ site.url }}/notes/spaces.pdf)   |
-| 2 | 9/12 | Modeling with Probability 1  | [Probability Notes]({{ site.url }}/notes/probability_notes.pdf)  |    |
-| 3 | 9/17 | TBD    |    |    |
-| 3 | 9/19 | TBD    |    |    |
+| 2 | 9/12 | Modeling with Probability  | [Probability Notes]({{ site.url }}/notes/probability_notes.pdf)  |    |
+| 3 | 9/17 | N-grams (Maximum Likelihood Estimation)  | Jurafsky & Martin 3.1--3.5   |    |
+| 3 | 9/19 | N-grams (Smoothing Techniques)  | Jurafsky & Martin 3.6, 3.8, and Historical Notes  |    |
+| 4 | 9/24 | Tokenization | J&M 2.5  |    |
+| 4 | 9/26 | Parsing | J&M 18.1--18.6  |    |
+| 5 | 10/1 | Probabilistic Parsing  | J&M Appendix C   |    |
+| 5 | 10/3 | TBD  |   |    |
 
 </div> 
 
