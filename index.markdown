@@ -41,13 +41,20 @@ The schedule below will be updated to keep track of all released course material
 | 3 | 9/17 | N-grams (Maximum Likelihood Estimation)  | Jurafsky & Martin 3.1--3.5   |    |
 | 3 | 9/19 | N-grams (Smoothing Techniques)  | Jurafsky & Martin 3.6, 3.8, and Historical Notes  |    |
 | 4 | 9/24 | Tokenization | J&M 2.5  |    |
-| 4 | 9/26 | Parsing | J&M 18.1--18.6  |    |
-| 5 | 10/1 | Probabilistic Parsing  | J&M Appendix C   |    |
-| 5 | 10/3 | TBD  |   |    |
+| 4 | 9/26 | CFGs | J&M 18.1--18.6  |    |
+| 5 | 10/1 | Parsing  | J&M 18.1--18.6   |    |
+| 5 | 10/3 | Probabilistic Parsing  | J&M Appendix C   |    |
+| 6 | 10/8 | Naive Bayes & Intro to Text Classification  | J&M 4.1--4.6   |    |
+| 6 | 10/10 | TBD  |   |    |
+| 6 | 10/15 | Exam 1  |   |    |
 
 </div> 
 
 
 ### Homeworks
 
-TBD
+#### Homework 1: N-Gram Language Modeling
+**Released: Sep. 17th 5pm**
+**Due: Oct. 2nd 9pm**
+Enrolled students should access the Github classroom link through Moodle. 
+
