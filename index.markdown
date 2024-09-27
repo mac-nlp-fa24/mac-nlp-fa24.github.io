@@ -54,8 +54,9 @@ The schedule below will be updated to keep track of all released course material
 ### Homeworks
 
 #### Homework 1: N-Gram Language Modeling
-**Released: Sep. 17th 5pm**
-**Due: Oct. 2nd 9pm**
-Enrolled students should access the Github classroom link through Moodle. 
-[Advice on doing simple (not stupid!) backoff](/pages/Backoff)
+**Released: Sep. 17th 5pm** \\
+**Due: Oct. 2nd 9pm** \\
+Enrolled students should access the Github classroom link through Moodle. \\
+##### Updates
+ - [Advice on doing simple (not stupid!) backoff](/pages/Backoff)
 
