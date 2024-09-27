@@ -15,17 +15,17 @@ Welcome to the COMP394 (Natural Language Processing) Course Page. For course pol
 
 #### Course Staff & Office Hours
 ##### Instructor:
-Suhas Arehalli
-Tu/Weds/Fri 2--3pm, OLRI 229
+Suhas Arehalli \\
+Tu/Weds/Fri 2--3pm \\
 OLRI 229
 
 ##### Preceptors:
-Kien Nguyen
-Mon 1--2pm, Th 4:30--6:30pm 
+Kien Nguyen \\
+Mon 1--2pm, Th 4:30--6:30pm \\
 Smail Gallery
 
-#### MSCS Slack Channel
-TBD.
+#### Textbook
+[Jurafsky & Martin, *Speech and Language Processing*](https://web.stanford.edu/~jurafsky/slp3/)
 
 ### Schedule
 The schedule below will be updated to keep track of all released course materials. Keep in mind that I may shift planned topics to adjust pace as necessary. 
@@ -57,4 +57,5 @@ The schedule below will be updated to keep track of all released course material
 **Released: Sep. 17th 5pm**
 **Due: Oct. 2nd 9pm**
 Enrolled students should access the Github classroom link through Moodle. 
+[Advice on doing simple (not stupid!) backoff](/pages/Backoff)
 
