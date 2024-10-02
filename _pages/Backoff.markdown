@@ -27,7 +27,7 @@ p(w_k \mid w_{k-n+1} \dots w_{k-1}) &= \delta\frac{c(w_{k-n+1 \dots w_k})}{\sum_
 \sum_{w_k \in V} p(w_k \mid w_{k-n+1} \dots w_{k-1}) &= \sum_{w_k \in V}\delta\frac{c(w_{k-n+1 \dots w_k})}{\sum_{w_k \in V}c(w_{k-n+1} \dots w_k)} = \delta
 \end{aligned}$$
 
-So we need the sum for all *unseen* $w_k$s to sum to $1-\delta$. There is a subtle trick here if you try and take too many shortcuts in assembling this equation though: You can't just take the MLE estimate of the (n-1)-gram model! Consider that the (n-1)-gram MLE model will have $\sum_{w_k \in V} p(w_k \mid w_{k-n+2} \dpts w_{k-1) = 1$, but we are only summing over $w_k$ *if* $c(w_{k-n+1} \dots w_{k-1}) = 0$. That means we might come in under $1$ when we sum over all $w_k \in V$ for our backoff model. 
+So we need the sum for all *unseen* $w_k$s to sum to $1-\delta$. There is a subtle trick here if you try and take too many shortcuts in assembling this equation though: You can't just take the MLE estimate of the (n-1)-gram model! Consider that the (n-1)-gram MLE model will have $\sum_{w_k \in V} p(w_k \mid w_{k-n+2} \dots w_{k-1}) = 1$, but we are only summing over $w_k$ *if* $c(w_{k-n+1} \dots w_{k-1}) = 0$. That means we might come in under $1$ when we sum over all $w_k \in V$ for our backoff model. 
 
 The trick is to not try and be clever, and just work out the right probabilities from first principles: We want $\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = 1$. We want each probability to be proportional to the (n-1)-gram count, so we also want $p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = \alpha c(w_{k-n+2} \dots w_{k-1})$ for some $\alpha$. Now just do a little algebra to find $\alpha$:
 
