@@ -43,9 +43,9 @@ The schedule below will be updated to keep track of all released course material
 | 4 | 9/24 | Tokenization | J&M 2.5  |    |
 | 4 | 9/26 | CFGs | J&M 18.1--18.6  |    |
 | 5 | 10/1 | Parsing  | J&M 18.1--18.6   |    |
-| 5 | 10/3 | Probabilistic Parsing  | J&M Appendix C   |    |
-| 6 | 10/8 | Naive Bayes & Intro to Text Classification  | J&M 4.1--4.6   |    |
-| 6 | 10/10 | TBD  |   |    |
+| 5 | 10/3 | Probabilistic Parsing 1  | J&M Appendix C   |    |
+| 6 | 10/8 | Probabilistic Parsing 2  | J&M 4.1--4.6   |    |
+| 6 | 10/10 | Exam Prep  |   [Practice Exam]({{ site.url }}/notes/practice_exam1.pdf)   |    |
 | 6 | 10/15 | Exam 1  |   |    |
 
 </div> 
