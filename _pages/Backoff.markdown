@@ -32,9 +32,9 @@ So we need the sum for all *unseen* $w_k$s to sum to $1-\delta$. There is a subt
 The trick is to not try and be clever, and just work out the right probabilities from first principles: We want $\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = 1$. We want each probability to be proportional to the (n-1)-gram count, so we also want $p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = \alpha c(w_{k-n+2} \dots w_{k-1})$ for some $\alpha$. Now just do a little algebra to find $\alpha$:
 
 $$\begin{aligned}
-    \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} \alpha c(w_{k-n+2} \dots w_{k-1}) &= 1 \\
-    \alpha \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} c(w_{k-n+2} \dots w_{k-1}) &= 1 \\
-    \alpha &= \frac{1}{\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} c(w_{k-n+2} \dots w_{k-1})} 
+    \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} \alpha c(w_{k-n+2} \dots w_{k-1}) &= 1 \\
+    \alpha \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} c(w_{k-n+2} \dots w_{k-1}) &= 1 \\
+    \alpha &= \frac{1}{\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} c(w_{k-n+2} \dots w_{k-1})} 
 \end{aligned}$$
 
 Now that's not a *nice* thing to compute, but this (typos aside --- let me know!) should give you a real conditional probabilitiy distribution. 

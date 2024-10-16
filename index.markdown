@@ -45,9 +45,17 @@ The schedule below will be updated to keep track of all released course material
 | 5 | 10/1 | Parsing  | J&M 18.1--18.6   |    |
 | 5 | 10/3 | Probabilistic Parsing 1  | J&M Appendix C   |    |
 | 6 | 10/8 | Probabilistic Parsing 2  | J&M 4.1--4.6   |    |
-| 6 | 10/10 | Exam Prep  |   [Practice Exam]({{ site.url }}/notes/practice_exam1.pdf)   |    |
-| 6 | 10/15 | Exam 1  |   |    |
-
+| 6 | 10/10 | Exam Prep  |   | [Practice Exam]({{ site.url }}/notes/practice_exam1.pdf)   | 
+| 7 | 10/15 | Exam 1  |   | [Unit 1 Extended Readings](/pages/Unit1Extensions)  |
+| 7 | 10/17 | **No Class** (Fall Break)  |   |    |
+| 8 | 10/22 | Text Classification (Naive Bayes)  | J&M 4.1--4.6   |    |
+| 8 | 10/24 | Text Classification (Logistic Regression) & Evaluation  | J&M 4.7--4.9, 5.1--5.5  |    |
+| 9 | 10/29 | Vector Embeddings  | J&M 6  |    |
+| 9 | 10/31 | Intro to Deep Learning/Feedforward Networks  | J&M 7.1--7.5   |    |
+| 10 | 11/5 | **No Class** (Election Day)  | TBD  |    |
+| 10 | 11/7 | Modern NLP Architectures 2 (RNNs/Self-Attention/Transformers)  | J&M 8.1--8.3, 9.1--9.6   |    |
+| 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   |    |
+| 11 | 11/14 | Exam 2 |  |    |
 </div> 
 
 
@@ -56,7 +64,8 @@ The schedule below will be updated to keep track of all released course material
 #### Homework 1: N-Gram Language Modeling
 **Released: Sep. 17th 5pm** \\
 **Due: Oct. 2nd 9pm** \\
-Enrolled students should access the Github classroom link through Moodle. \\
+Enrolled students should access the Github classroom link through Moodle. 
+
 ##### Updates
  - [Advice on doing simple (not stupid!) backoff](/pages/Backoff)
 
