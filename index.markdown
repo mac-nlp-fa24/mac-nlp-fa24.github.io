@@ -56,6 +56,7 @@ The schedule below will be updated to keep track of all released course material
 | 10 | 11/7 | Modern NLP Architectures 2 (RNNs/Self-Attention/Transformers)  | J&M 8.1--8.3, 9.1--9.6   |    |
 | 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   |    |
 | 11 | 11/14 | Exam 2 |  |    |
+
 </div> 
 
 
