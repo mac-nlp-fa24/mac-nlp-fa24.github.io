@@ -70,3 +70,8 @@ Enrolled students should access the Github classroom link through Moodle.
 ##### Updates
  - [Advice on doing simple (not stupid!) backoff](/pages/Backoff)
 
+##### Autograding and Revision Policy
+
+Autograding test cases can be found [here](https://github.com/mac-nlp-fa24/hw1-autograding) with a README that explain it's use, as well as where to find the inputs you were tested on along with expected output and detailed logs of how the outputs were computed and the data they were computed from. 
+
+I will re-run the autograder at the end of the semester to determine your implementation score for this assignment for final grades. Consider this a rolling "part 2" of the assignment. The goal is not just to give you a second chance at getting the points, but to encourage you to view multiple stages of writing code, testing code (externally and internally), and revising that code as the standard practice of writing any substantial bit of software. Plus, this is motivation to make sure an assignment you do poorly on is not something to forget about as we move forward. 

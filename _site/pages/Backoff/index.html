@@ -29,6 +29,8 @@
         
 
         
+            <link rel="next" href="/pages/Unit1Extensions/" />
+        
     </head>
     <body>
         <div class="book"><div class="book-summary">
@@ -94,6 +96,17 @@
                                     
                                         <ul><li><a href="#backing-off" onclick="mobilePageScrollToAnchor(this)" >Backing Off</a></li></ul>
 
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/pages/Unit1Extensions/">
+                            
+                                <a href="/pages/Unit1Extensions/" onclick="pageScrollToTop(this)">
+                                    Unit 1: Additional Readings and Extensions
+                                </a>
+                                
                                     
                                 
                             </li>
@@ -168,9 +181,9 @@ p(w_k \mid w_{k-n+1} \dots w_{k-1}) &amp;= \delta\frac{c(w_{k-n+1 \dots w_k})}{\
 <p>The trick is to not try and be clever, and just work out the right probabilities from first principles: We want $\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = 1$. We want each probability to be proportional to the (n-1)-gram count, so we also want $p_{bo}(w_k \mid w_{k-n+2} \dots w_{k-1}) = \alpha c(w_{k-n+2} \dots w_{k-1})$ for some $\alpha$. Now just do a little algebra to find $\alpha$:</p>
 
 \[\begin{aligned}
-    \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} \alpha c(w_{k-n+2} \dots w_{k-1}) &amp;= 1 \\
-    \alpha \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} c(w_{k-n+2} \dots w_{k-1}) &amp;= 1 \\
-    \alpha &amp;= \frac{1}{\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k-1}) = 0} c(w_{k-n+2} \dots w_{k-1})} 
+    \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} \alpha c(w_{k-n+2} \dots w_{k-1}) &amp;= 1 \\
+    \alpha \sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} c(w_{k-n+2} \dots w_{k-1}) &amp;= 1 \\
+    \alpha &amp;= \frac{1}{\sum_{w_k \in V, c(w_{k-n+1} \dots w_{k}) = 0} c(w_{k-n+2} \dots w_{k-1})} 
 \end{aligned}\]
 
 <p>Now that’s not a <em>nice</em> thing to compute, but this (typos aside — let me know!) should give you a real conditional probabilitiy distribution.</p>
@@ -240,6 +253,10 @@ window.MathJax = {
                     
 
                     
+                        <a href="/pages/Unit1Extensions/" class="navigation navigation-next navigation-unique" aria-label="Next page: Unit 1: Additional Readings and Extensions">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
                 </div>
             </div>
 
@@ -251,6 +268,15 @@ window.MathJax = {
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
+        
+        "next": {
+            "title": "Unit 1: Additional Readings and Extensions",
+            "level": "1.2",
+            "depth": 1,
+            "path": "_pages/Unit1Extensions.markdown",
+            "ref": "_pages/Unit1Extensions.markdown",
+            "articles": []
+        },
         
         "dir": "ltr"
     },    "config": {
@@ -341,12 +367,12 @@ window.MathJax = {
     },
     "file": {
         "path": "_pages/Backoff.markdown",
-        "mtime": "2024-09-27 13:08:04 -0500",
+        "mtime": "2024-10-16 17:04:13 -0500",
         "type": "markdown"
     },
     "gitbook": {
         "version": "",
-        "time": "2024-09-27 13:08:04 -0500"
+        "time": "2024-10-16 17:04:13 -0500"
     },
     "basePath": "",
     "book": {
