@@ -52,7 +52,7 @@ The schedule below will be updated to keep track of all released course material
 | 8 | 10/24 | Text Classification (Logistic Regression) & Evaluation  | J&M 4.7--4.9, 5.1--5.5  |    |
 | 9 | 10/29 | Vector Embeddings  | J&M 6  |    |
 | 9 | 10/31 | Intro to Deep Learning/Feedforward Networks  | J&M 7.1--7.5   |    |
-| 10 | 11/5 | **No Class** (Election Day)  | TBD  |    |
+| 10 | 11/5 | **No Class** (Election Day)  | Complete the "Pytorch Practice" activity on Moodle  |    |
 | 10 | 11/7 | Modern NLP Architectures 2 (RNNs/Self-Attention/Transformers)  | J&M 8.1--8.3, 9.1--9.6   |    |
 | 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   |    |
 | 11 | 11/14 | Exam 2 |  |    |
