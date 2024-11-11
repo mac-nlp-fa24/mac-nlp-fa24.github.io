@@ -54,7 +54,7 @@ The schedule below will be updated to keep track of all released course material
 | 9 | 10/31 | Intro to Deep Learning/Feedforward Networks  | J&M 7.1--7.5   |    |
 | 10 | 11/5 | **No Class** (Election Day)  | Complete the "Pytorch Practice" activity on Moodle  |    |
 | 10 | 11/7 | Modern NLP Architectures 2 (RNNs/Self-Attention/Transformers)  | J&M 8.1--8.3, 9.1--9.6   |    |
-| 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   | [Practice Exam]({{ site.url }}/notes/practice_exam2.pdf) |
+| 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   | [Matrices](/pages/Matrices), [Practice Exam]({{ site.url }}/notes/practice_exam2.pdf) |
 | 11 | 11/14 | Exam 2 |  |    |
 
 </div> 
@@ -87,10 +87,10 @@ Enrolled students can access the Github classroom link through Moodle.
  - A few bugs in the `data.py` file and a typo in the README are fixed in a pull request sent through Github classroom. 
 
 ### Final Project
-**Released: Oct 29th 3PM**
-**Proposal Due: Nov 21st 9PM**
-**Report/Code Due: Dec 15th 9PM**
-**Presentations: Dec 16th 1:30--3:30PM**
+**Released: Oct 29th 3PM** \\
+**Proposal Due: Nov 21st 9PM** \\
+**Report/Code Due: Dec 15th 9PM** \\
+**Presentations: Dec 16th 1:30--3:30PM** \\
 
 Guidelines can be accessed by Macalester students [here](https://docs.google.com/document/d/1HFrkZX2SybtMu7fe82mh0f-WNPvFOfx8q_cCpzE69UA/edit?usp=sharing).
 
