@@ -57,7 +57,7 @@ The schedule below will be updated to keep track of all released course material
 | 11 | 11/12 | Modern NLP Architectures 2 (Self-Attention & Transformers)  | Reread J&M 9.1--9.6   | [Matrices](/pages/Matrices), [Practice Exam]({{ site.url }}/notes/practice_exam2.pdf) + [solutions]({{ site.url }}/notes/practice_exam2_sols.pdf) |
 | 11 | 11/14 | Exam 2 |  |    |
 | 12 | 11/19 | Intro to Bias and Model Interpretability | [Bender et al. 2021](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922). Optional: [De-Arteaga et al 2019](https://arxiv.org/pdf/1901.09451)  |    |
-| 12 | 11/21 | Targeted Evaluation, Probing, and de-biasing  | Skim [Bolukbasi et al (2016)](https://dl.acm.org/doi/pdf/10.5555/3157382.3157584)  |    |
+| 12 | 11/21 | Targeted Evaluation, Probing, and de-biasing  | Skim [Bolukbasi et al (2016)](https://dl.acm.org/doi/pdf/10.5555/3157382.3157584)  Optional: [Cynthia Rudin Q&A](https://www.quantamagazine.org/cynthia-rudin-builds-ai-that-humans-can-understand-20230427/), [Been Kim Q&A](https://www.quantamagazine.org/a-new-approach-to-understanding-how-machines-think-20190110/) |    |
 | 13 | 11/26 | LLMs, trust, and factuality | TBD  |    |
 | 14 | 12/3 | *Guest Lecture* | TBD |    |
 | 14 | 12/5 | Data Ethics | TBD  |    |
@@ -96,7 +96,8 @@ Enrolled students can access the Github classroom link through Moodle.
 **Released: Oct 29th 3PM** \\
 **Proposal Due: Nov 21st 9PM** \\
 **Report/Code Due: Dec 15th 9PM** \\
-**Presentations: Dec 16th 1:30--3:30PM** \\
+**Posters Due: Dec 9th 12PM** \\
+**Presentations: Dec 16th 1:30--3:30PM** 
 
 Guidelines can be accessed by Macalester students [here](https://docs.google.com/document/d/1HFrkZX2SybtMu7fe82mh0f-WNPvFOfx8q_cCpzE69UA/edit?usp=sharing).
 
