@@ -58,7 +58,7 @@ The schedule below will be updated to keep track of all released course material
 | 11 | 11/14 | Exam 2 |  |    |
 | 12 | 11/19 | Intro to Bias and Model Interpretability | [Bender et al. 2021](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922). Optional: [De-Arteaga et al 2019](https://arxiv.org/pdf/1901.09451)  |    |
 | 12 | 11/21 | Targeted Evaluation, Probing, and de-biasing  | Skim [Bolukbasi et al (2016)](https://dl.acm.org/doi/pdf/10.5555/3157382.3157584)  Optional: [Cynthia Rudin Q&A](https://www.quantamagazine.org/cynthia-rudin-builds-ai-that-humans-can-understand-20230427/), [Been Kim Q&A](https://www.quantamagazine.org/a-new-approach-to-understanding-how-machines-think-20190110/) |    |
-| 13 | 11/26 | LLMs, trust, and factuality | TBD  |    |
+| 13 | 11/26 | LLMs, trust, and factuality | [Weizenbaum 1967](https://dl.acm.org/doi/pdf/10.1145/363534.363545) and [Turkle (1984)](https://dl.acm.org/doi/pdf/10.1145/363534.363545) pg.30-42  |    |
 | 14 | 12/3 | *Guest Lecture* | TBD |    |
 | 14 | 12/5 | Data Ethics | TBD  |    |
 | 15 | 12/10 | Audits and Algorithmic Fairness | TBD |    |
@@ -86,7 +86,7 @@ I will re-run the autograder at the end of the semester to determine your implem
 #### Homework 2: Text Classification
 **Released: Oct 31st 3PM** \\
 **Part 1 Due: Nov 7th 9PM** \\
-**Due: Nov 19th 9PM** \\
+**Due: Nov ~~19th~~ 22nd 9PM** \\
 Enrolled students can access the Github classroom link through Moodle.
 
 ##### Updates
