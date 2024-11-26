@@ -18,28 +18,47 @@ If you concoct clever schemes to make the model fail, and yet it succeeds, I'll 
 
 ##### Transcript
 *Garfinkel*: (Sign In)
+
 *LYRIC*: HELLO. THE MIRACLES OF MODERN SCIENCE HAVE ENABLED US TO TALK TO ONE ANOTHER EVEN THOUGH WE ARE PHYSICALLY 
 (AND CONCEPTUALLY) IN QUITE DIFFERENT SITUATIONS. YOUR STATEMENTS CAN REACH ME ONLY IF YOU PUSH THE INT
 OR SHIFT BUTTONS. WHY DON’T YOU TRY IT NOW?
+
 *G*: (Presses INT)
+
 *L*: VERY GOOD. IF YOU SEE A SMALL ARROW ON THE SCREEN PLEASE MAKE SOME REPLY.
 DON’T FEEL INHIBITED. JUST TYPE ANYTHING YOU FEEL IS APPROPRIATE AND THEN
 PRESS THE ENTER KEY. SO WHAT’S ON YOUR MIND?
+
 *G*: Uh ……
+
 *L*: PLEASE ELABORATE.
+
 *G*: I …… Uh ……
+
 *L*: TELL ME MORE ABOUT YOURSELF.
+
 *G*: Well …………
+
 *L*: I UNDERSTAND PERFECTLY. TELL ME MORE.
+
 *G*: I’m thinking about what to tell ……………………………………………………
+
 *L*: WHAT DO YOU THINK ABOUT IT?
+
 *G*: That’s what I’m trying to think of in……… just……… another ……… minute …….
+
 *L*: WHAT DO YOU THINK ABOUT IT?
+
 *G*: Um ………………………………
+
 *L*: HAVE YOU ALWAYS FELT THAT WAY?
+
 *G*: (Pause) ……….
+
 *L*: YES THAT’S TRUE BUT I’M STILL A LITTLE UNCLEAR.
+
 *G*: I know what I want to say. (Pause) ………………………………….
+
 *L*: MY OPINION ISN’T IMPORTANT, MACHINE DOWN
 
 ##### Analysis
