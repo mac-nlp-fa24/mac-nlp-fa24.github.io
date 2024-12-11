@@ -59,10 +59,10 @@ The schedule below will be updated to keep track of all released course material
 | 12 | 11/19 | Intro to Bias and Model Interpretability | [Bender et al. 2021](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922). Optional: [De-Arteaga et al 2019](https://arxiv.org/pdf/1901.09451)  | [Slides]({{ site.url }}/notes/NLPEthics.pdf) |
 | 12 | 11/21 | Targeted Evaluation, Probing, and de-biasing  | Skim [Bolukbasi et al. 2016](https://dl.acm.org/doi/pdf/10.5555/3157382.3157584)  Optional: [Cynthia Rudin Q&A](https://www.quantamagazine.org/cynthia-rudin-builds-ai-that-humans-can-understand-20230427/), [Been Kim Q&A](https://www.quantamagazine.org/a-new-approach-to-understanding-how-machines-think-20190110/) |    |
 | 13 | 11/26 | LLMs, trust, and factuality | [Weizenbaum 1967](https://dl.acm.org/doi/pdf/10.1145/363534.363545) and [Turkle 1984](https://direct.mit.edu/books/monograph/2327/chapter-standard/60990/Child-Philosophers) pg.33-45. Optional: [Vaithilingam et al. (2022)](https://dl.acm.org/doi/abs/10.1145/3491101.3519665)  | [A14: LLM Factuality](/pages/ActivityLLMs)  |
-| 14 | 12/3 | *Guest Lecture*: Elizabeth Engle (Economics) | TBD |    |
-| 14 | 12/5 | Data Ethics | TBD  |    |
-| 15 | 12/10 | Audits and Algorithmic Fairness | TBD |    |
-
+| 14 | 12/3 | *Guest Lecture*: Elizabeth Engle (Economics) | | [slides]({{ site.url }}/notes/LaborLLMs_Engle.pdf) |
+| 14 | 12/5 | Data Ethics | | |
+| 15 | 12/10 | Audits and Algorithmic Fairness | | [slides]({{ site.url }}/notes/DataEthics_AlgoFairness.pdf) |
+| 16 | 12/16 1:30-3:30pm | Final Project Poster Presentation | | 
 </div> 
 
 
