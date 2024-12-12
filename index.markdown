@@ -63,6 +63,7 @@ The schedule below will be updated to keep track of all released course material
 | 14 | 12/5 | Data Ethics | | |
 | 15 | 12/10 | Audits and Algorithmic Fairness | | [slides]({{ site.url }}/notes/DataEthics_AlgoFairness.pdf) |
 | 16 | 12/16 1:30-3:30pm | Final Project Poster Presentation | | 
+
 </div> 
 
 
